@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    color: #fff;
+}
+header {
+    background:rgb(70, 70, 90);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+h1, h2 ,h3{
+    margin:20px 0;
+    text-align: center;
+    color: violet;
+    font-weight: 300;
+
+}
+section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+    background:#3E4B8C;
+    border-radius: 8px;
+   box-shadow: 0 5px 12px rgba(255, 182, 193, 0.5); /* Light pink shadow */
+}
+img {
+    max-width: 800%;
+    border-radius: 9px;
+    margin-bottom: 10px; /* Add spacing below images */
+    align-items: center;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: blueviolet;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+@media (max-width: 600px) {
+    header, footer {
+        padding: 15px 0;
+    }
+    section {
+        padding: 15px;
+    }
+}
+/* Style for Read More links */
+.read-more-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+    border-width: 2px;
+}
+.read-more-link:hover {
+    text-decoration-color: #3E4B8C;
+}
+.hidden{
+    display: none;
+}
+.img-container{
+    text-align: center; /* Center the image */
+}
+
+img {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+.video-container{
+    width:100%;
+    overflow:hidden;
+    text-align:center;
+}
